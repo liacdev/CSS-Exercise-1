@@ -1,0 +1,32 @@
+/* Selector {
+    Property: value;
+} */
+body {
+  background-image: url(./images/openEyes.png);
+  background-size: cover;
+}
+
+h2 {
+  color: red;
+  text-align: center;
+  border: 5px dashed rgb(194, 194, 92);
+  cursor: pointer;
+}
+
+p {
+  color: rgb(19, 62, 128);
+}
+p {
+  color: rgb(16, 223, 195);
+  border: 5px solid orange;
+}
+
+div {
+  padding: 35px;
+  background-color: rgba(163, 88, 163, 0.4);
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
