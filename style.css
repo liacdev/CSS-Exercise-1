@@ -1,32 +1,80 @@
 /* Selector {
     Property: value;
 } */
-body {
-  background-image: url(./images/openEyes.png);
-  background-size: cover;
+
+* {
+  text-align: right;
 }
 
-h2 {
+body {
+}
+
+.mainpage {
+}
+
+h1 {
   color: red;
   text-align: center;
   border: 5px dashed rgb(194, 194, 92);
   cursor: pointer;
 }
 
-p {
-  color: rgb(19, 62, 128);
-}
-p {
-  color: rgb(16, 223, 195);
-  border: 5px solid orange;
-}
-
-div {
-  padding: 35px;
-  background-color: rgba(163, 88, 163, 0.4);
-}
+/* The color is getting over-written but the position is not */
 
 li {
   list-style: none;
   display: inline-block;
+}
+
+.webtext {
+  font-size: 20px;
+  border: 5px solid orange;
+  color: rgb(35, 211, 202);
+}
+
+.active {
+  color: red;
+}
+
+#div1 {
+  padding: 15px;
+  background-color: rgba(27, 0, 63, 0.8);
+}
+
+#div2 {
+  padding: 15px;
+  background-color: rgba(67, 133, 255, 0.3);
+}
+
+#div3 {
+  background-image: url(./images/openEyes.png);
+  background-size: auto;
+}
+
+#div4 {
+  padding: none;
+  background-color: rgba(51, 12, 77, 0.3);
+}
+
+#div5 {
+  padding: none;
+  background-color: rgba(216, 6, 153, 0.3);
+}
+#p1 {
+  color: rgb(183, 212, 255);
+  text-align: center;
+}
+
+#p2 {
+  color: rgb(16, 223, 195);
+  text-align: left;
+}
+
+#p3 {
+  color: rgb(230, 190, 59);
+  text-align: center;
+}
+
+#p4 {
+  color: rgb(97, 201, 13);
 }
