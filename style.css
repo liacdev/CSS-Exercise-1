@@ -5,12 +5,22 @@
 * {
   text-align: right;
   font-family: "Josefin Sans", sans-serif;
+  color: rgb(215, 218, 47);
+}
+
+img {
+  float: left;
 }
 
 body {
 }
 
 .mainpage {
+}
+
+footer {
+  clear: both;
+  text-align: center;
 }
 
 h1 {
@@ -24,7 +34,8 @@ h1 {
 
 li {
   list-style: none;
-  display: inline-block;
+  display: list-item;
+  color: rgb(215, 218, 47);
 }
 
 .webtext {
