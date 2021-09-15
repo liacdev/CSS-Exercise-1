@@ -1,6 +1,21 @@
 h2 {
   color: blue;
 }
+
+p {
+  font-size: 20px;
+}
+
+span {
+  /* 2 x the containing element */
+  font-size: 2em;
+}
+
+span2 {
+  /* Size in relation to the root element */
+  font-size: 2rem;
+}
+
 .mainpage {
   border: 5px solid rgb(59, 2, 87);
   display: inline-block;
