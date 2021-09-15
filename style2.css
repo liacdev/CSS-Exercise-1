@@ -1,3 +1,27 @@
 h2 {
   color: blue;
 }
+.mainpage {
+  border: 5px solid rgb(59, 2, 87);
+  display: inline-block;
+}
+
+.boxmodel1 {
+  border: 5px solid rgb(255, 131, 255);
+  padding: 20px;
+  margin: 5px;
+}
+
+.boxmodel2 {
+  border: 5px solid rgb(0, 44, 94);
+  /* Top, right, bottom, left */
+  padding: 10px 20px 10px 20px;
+  margin: 5px;
+}
+
+.boxmodel3 {
+  border: 5px solid rgb(68, 221, 248);
+  margin: 5px;
+  /* top/bottom, left/right */
+  padding: 10px 20px;
+}
